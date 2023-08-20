@@ -1,0 +1,38 @@
+{
+"intents":[
+{
+"tag":"greetings",
+"patterns": ["Hello!","Hi there!","Hey!","Good morning!","Good afternoon!",    "Good evening!","Howdy!","Nice to see you!", "Greetings!","What's up?"],
+"responses":["Hey,How did your day go?","Hey,how was today?","Hey,what's up? What happend today?","Did anything interesting happen today?","How was your day, good or bad?","Hey,Was today a good day for you?","Hey,Did you have a productive day?"]
+},
+{
+"tag":"smallTalk",
+"patterns":["It was pretty good, thanks for asking.","It was fine, nothing too exciting happened.","Actually, it wasn't the best day.","It was a little rough, but I made it through.","It was fantastic, I had such a great time!","Honestly, it was a bit of a blur.","It was a mixed bag, with some good moments and some bad.","I had a really productive day, which felt great.","It was okay, but I'm glad it's over.","It was a really challenging day, but I learned a lot."],
+"responses":["Do you feel like sharing more about your day?", "Is there anything else you'd like to tell me about your day?", "I'm interested in hearing more about your day, would you like to talk more about it?", "Do you have any thoughts or feelings you'd like to explore about how your day went?", "If you want to talk more about your day, I'm here to listen."]
+},
+{
+"tag":"dayInfo",
+"patterns":["It was pretty good, thanks for asking! I woke up feeling rested and energized, which set a positive tone for the day. I had a productive morning at work, and then met up with some friends for lunch which was really nice. In the afternoon, I was able to finish a project that I'd been working on for a while, which felt really rewarding.","It was a bit of a mixed bag, to be honest. I started off the day feeling a bit overwhelmed with my workload, but managed to power through and accomplish a lot. In the afternoon, I had a meeting that didn't go quite as well as I had hoped, which was a bit of a downer. But I was able to end the day on a positive note by going for a nice long walk and spending some time with my family.","Overall, it was a really great day! I had a lot of fun hanging out with friends and trying out some new activities that I hadn't done before. I also had some really positive interactions with people at work which left me feeling energized and motivated.","It was a bit of a challenging day, to be honest. I had a lot of things on my plate and was feeling pretty stressed out for most of the day. But I tried to take breaks and practice some self-care throughout the day, which helped me manage my stress levels and feel a bit more centered.","It was a really interesting day, full of surprises! I had some unexpected things come up at work that required me to think on my feet and adapt quickly. But I also had some really positive developments that came out of those challenges, so overall I'm feeling pretty good about how the day went.","To be honest, it was a bit of a tough day. I had a lot of things on my mind and was feeling pretty distracted and overwhelmed for most of the day. But I did my best to stay focused and get things done, and I'm proud of myself for pushing through.","It was a pretty average day, all things considered. I had some good moments and some not-so-good moments, but overall it was just a typical day in the grand scheme of things.",
+"It was a really fun day! I got to catch up with some old friends that I hadn't seen in a while, and we had a great time reminiscing about old times and making new memories. I also had some time to pursue some of my hobbies which always helps me feel more relaxed and happy.","It was a bit of a frustrating day, to be honest. I had some technical difficulties at work that set me back quite a bit, and it was really frustrating to not be able to make as much progress as I had hoped. But I'm trying to stay positive and remember that tomorrow is a new day."],
+"responses":["Thank you for sharing about your day.", "I appreciate you taking the time to talk about your day.", "Thanks for telling me how your day went.", "I'm grateful you shared about your day with me.", "I'm glad you felt comfortable telling me about your day.", "I appreciate you opening up about your day.", "It means a lot that you shared about your day with me.", "Thanks for being honest about how your day went.", "I'm thankful you felt comfortable sharing about your day with me.", "It was nice to hear about your day, thank you."]
+},
+
+{
+"tag":"conclusion",
+"patterns":["Take care!",
+ "Goodbye for now!",
+ "See you later!",
+ "Talk to you soon!",
+ "Catch you later!",
+ "Until next time!",
+ "Peace out!",
+ "I'll be back!",
+ "Farewell!",
+ "Bye-bye!"],
+"responses":["Bye for now. Remember, tomorrow is a new day full of new possibilities.","Take care and keep your head up. Tomorrow is a fresh start.","Goodbye my friend. May tomorrow bring you joy and success.",    "Farewell for now. Don't forget that every day is a chance to start anew.",    "So long, and don't lose hope. A brighter tomorrow is just around the corner.","Till next time, keep your chin up and believe in a better tomorrow.","Au revoir, my friend. Let's look forward to a brighter tomorrow.","Adios for now. Remember, every day is a new opportunity for success.","Hasta luego, and keep your spirits high. The future holds great promise.","See you later, and keep your eyes fixed on the horizon of a better tomorrow."]
+
+
+}
+
+]
+}
